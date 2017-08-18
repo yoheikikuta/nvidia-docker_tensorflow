@@ -11,11 +11,11 @@ Gpu-enabled tensorflow docker image.
 - ubuntu 16.04
 - python 3.5
 - cuda 8.0
-- cudnn5
+- cudnn6
 
 ### Usage
 ```
-$ nvidia-docker run -it -p <host ip 1>:8888 -p <host ip 2>:6006 --name <container name> yoheikikuta/nvidia-docker_tensorflow:cuda8.0-cudnn5-ubuntu16.04
+$ nvidia-docker run -it -p <host ip 1>:8888 -p <host ip 2>:6006 yoheikikuta/nvidia-docker_tensorflow
 ```
 
 ### Test operation
